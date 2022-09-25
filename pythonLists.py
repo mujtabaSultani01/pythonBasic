@@ -1,5 +1,4 @@
-# Python list work based on array concept.
-# in String we were storing each item in separate variable & thus each character was storing in separate index.
+# Python list work based on array concept. using String we were storing each item in separate variable & thus each character was storing in separate index.
 item1 = "bread"
 item2 = "Pasta"
 item3 = "Fruits"
