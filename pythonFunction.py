@@ -12,11 +12,11 @@ for item in Joe_exp_list:
     total = item + total
 print("Joe tatal expenses are: ", total)
 
-# so now look we're writing the similar code twice.
-# if we have 100 lists then we should write it 100 times which is not good practice.
-# so to avoid this we can use Function.
-# in Python def keyword can be used to define function.
-
+""" 
+so now look we're writing the similar code twice.
+if we have 100 lists then we should write it 100 times which is not good practice.
+so to avoid this we can use Function. in Python def keyword can be used to define function.
+"""
 def calculate_total(exp):
     total = 0
     for item in exp:
