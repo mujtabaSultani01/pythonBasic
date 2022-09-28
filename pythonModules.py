@@ -20,7 +20,13 @@ dir(calendar)
 jan = calendar.month(2016,1)
 print("Calendar of Jan-2016 is: ", jan)
 print(calendar.isleap(2016))
+"""
+To find all python modules: search in google python 3.10.5 moduls list. it will show you all the moduls installed
+in your PC with python installation. but we have other 3rd party moduls for using them you should install them.
 
-# To find all python modules: search in google python 3.10.5 moduls list. it will show you all the moduls installed
-# in your PC with python installation. but we have other 3rd party moduls for using them you should install them.
+We can also create our own private modul, so for that see here in this same python project (pythonBasic) i have 
+two files (functions.py and myprogram.py) in functions.py i have two functions which return area of a triangle and
+a square. now i can use this functions.py file as my private modul.
+check them...
+"""
 
