@@ -1,0 +1,1 @@
+{"Ali": {"name": "Ali", "address": "Kabul", "phone": "0708478493"}, "Ahmad": {"name": "Ahmad", "address": "Kandahar", "phone": "0783746733"}}
