@@ -48,4 +48,6 @@ print(S)
 
 with open("C:\\users/Habib/PycharmProjects/pythonBasic/book.txt", "w") as f:
     f.write(S)
-    
+
+# now you can read this book.txt file from C++, C or other programming language. that's why it's calle data
+# exchange format.
