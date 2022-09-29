@@ -17,6 +17,7 @@ print(book["Ahmad"]["phone"])
 print(type(S))
 print(type(book))
 
-# to print each person records separately, we can use loop:
+# to print each person records separately from book dic, we can use loop:
 for person in book:
     print(book[person])
+
