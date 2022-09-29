@@ -16,3 +16,7 @@ print(book["Ahmad"]["phone"])
 # we can use type() method.
 print(type(S))
 print(type(book))
+
+# to print each person records separately, we can use loop:
+for person in book:
+    print(book[person])
