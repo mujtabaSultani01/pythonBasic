@@ -51,3 +51,4 @@ with open("C:\\users/Habib/PycharmProjects/pythonBasic/book.txt", "w") as f:
 
 # now you can read this book.txt file from C++, C or other programming language. that's why it's calle data
 # exchange format.
+# we'll read this data from other python file 'readJSon.py'.
