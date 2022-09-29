@@ -15,6 +15,15 @@ F_read.close()
 F_read1 = open("C:\\users/Habib/PycharmProjects/pythonBasic/funny1.txt", "r")
 for line in F_read1:
     tokens = line.split(' ')
-    #print(str(tokens))
+    # print(str(tokens))
     print(len(tokens))
 F_read1.close()
+
+# we can write word count with each line:
+F_read1 = open("C:\\users/Habib/PycharmProjects/pythonBasic/funny1.txt", "r")
+F_out = open("C:\\users/Habib/PycharmProjects/pythonBasic/funny_wc.txt", "w")
+for line in F_read1:
+    tokens = line.split(' ')
+    F_out.write("WordCount: " + str(len(tokens)) + " " + line)
+F_read1.close()
+F_out.close()
