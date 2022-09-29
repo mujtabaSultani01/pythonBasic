@@ -22,6 +22,9 @@ for key in JSon:
 """
  Now let's write two simple examples, 1st create address book and write some records into it. 2nd read this address
  book. 
- 
+ So 1st we'll create a dictionary object, there is no an object called JSon in python. python natives objects are
+ numbers, strings, dictionaries and etc... JSon is just a concept. JSon is jsut basically a format which is implemented
+ by different languages.
 """
+
 
