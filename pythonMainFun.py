@@ -22,3 +22,7 @@ if __name__ == "__main__":
     print("The calculated area is: ", area)
 
 # now the question is, when the value of _ _name_ _ is something other than _ _main_ _ ?
+# The answer is: when you access the file which having _ _name_ _ condition directely, the _ _name_ _ is equal with
+# _ _main_ _ func, but when you access the file from other file then the function will be called but you can't
+# access the output of of the calculate_area fun which is displayed in this file.
+# Check pythonMainFunCaller python file.
