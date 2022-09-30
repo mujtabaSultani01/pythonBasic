@@ -10,11 +10,47 @@ be printed and program will terminate. the goal is when you're writing a program
 and exception happend in the middle, then the program will be terminated and the next code won't be executed.
 """
 x = input("enter the 1st number: ")
-x = int(x)
 y = input("enter the 2nd number: ")
-y = int(y)
-z = x/y
 # z = int(x)/int(y)
-print("(x divided y) result is: ", z)
+# print("(x divided y) result is: ", z)
 
+# so to handle exception we use Try-catch blocks: so we put the probable section of code in try block where
+# exception may occur. so after that our program will work fine, either when we divide on zero, the remaining
+# code will be executed.
 
+try:
+    z = int(x)/ int(y)
+except Exception as e:
+    print("Exception occured: ", e)
+    z = 0
+print("division is: ", z)
+
+# Or more specific:
+try:
+    z = int(x)/int(y)
+except ZeroDivisionError as e:
+    print("Division by zeor error occured!")
+    z = 0
+print("Division is: ", z)
+
+# To know about the type of exception:
+try:
+    z = int(x)/ int(y)
+except Exception as e:
+    print("Exception type: ", type(e).__name__)
+    print("Exception occured: ", e)
+    z = 0
+print("division is: ", z)
+
+# We may have multiple exceptions, for example if we don't convert user input to integer it will also generate exce
+try:
+    z = x/int(y)
+except TypeError as e:
+    print("Exception type: ", type(e).__name__)
+    z = 0
+except ZeroDivisionError as e:
+    print("Division by zero error occured!")
+    z = 0
+print("Division is: ", z)
+
+# Google for "Python builton exceptions" to see the list of standard exceptions in Python.
