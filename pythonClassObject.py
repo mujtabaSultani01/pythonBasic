@@ -16,5 +16,30 @@ So class is nothing but abstraction of some entities which contains common prope
 So what's Object? object is nothing, but a specific instance of a class.
 Now let's write a class in python:
 """
+class Human:
+    def __init__(self, na, oc):
+        self.name = na
+        self.occupation = oc
 
+    def do_word(self):
+        if self.occupation == "Tennis player":
+            print(self.name, "Play Tennis.")
+        elif self.occupation == "actor":
+            print(self.name, "Shots a film.")
+        else:
+            print(self.name, "What are you doing?")
 
+    def speaks(self):
+        print(self.name ,"says how are you?")
+
+Ahmad = Human("Ahmad", "actor")
+Ahmad.do_word()
+Ahmad.speaks()
+
+Maryam = Human("Maryam", "Tennis player")
+Maryam.do_word()
+Maryam.speaks()
+
+Fawad = Human("Fawad", "doctor")
+Fawad.do_word()
+Fawad.speaks()
