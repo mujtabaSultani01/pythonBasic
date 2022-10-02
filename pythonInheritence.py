@@ -50,3 +50,6 @@ parent class code twice, trice ... & if you've a customization, you can create a
 """
 print("is C is instance of Car() class? ", isinstance(C, Car))
 print("is M is instance of Car() class? ", isinstance(M, Car))
+
+print("Is Motorcycle class is sub class of Vehicle class? ", issubclass(Motorcycle, Vehicle))
+print("Is Car class is sub class of Vehicle class? ", issubclass(Car, Vehicle))
