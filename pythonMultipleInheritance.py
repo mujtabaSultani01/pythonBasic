@@ -14,9 +14,12 @@ class Mother():
 
 class Child(Fathe, Mother):
     def sports(self):
+        self.gardening()
+        self.cooking()
         print("I love playing cricket and volleyball.")
 
 C = Child()
-C.gardening()
-C.cooking()
 C.sports()
+# C.gardening()
+# C.cooking()
+# C.sports()
